@@ -95,6 +95,7 @@ public class ProductTest {
        
        Products p3 = htmlParser.parse(htmlValue, Products.class);
        System.out.println("P3 is " + p3);
+       System.out.println("P3 color " + p3.getName());
        System.out.println("P3 color " + p3.getColor());
        
 	
